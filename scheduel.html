@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .abc{
+           background:#218380;
+        }
+        #box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        #b{
+            background:#8f2d56;
+        }
+        #container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        th, td{
+           color:white;
+            border:1px solid black;
+        }
+        th{
+            background:#d81159;
+            font-size: 23px;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <div id="b" >
+        <div id="box">
+            <p>Time Table fall-23</p>
+            <h2>BS Software Engineering F21-Batch</h2>
+        </div>
+      
+        <div id="container">
+         
+            <table border="9" bgcolor="skyblue" bordercolor="#fbb13c" cellspacing="5" cellpadding="14">
+                <tr>
+                    <th rowspan="3">Day</th>
+                    <th colspan="3">Created by Saira</th>
+                </tr>
+                <tr>
+                    <th colspan="2">Schedual</th>
+                    <th rowspan="2">Subject</th>
+                </tr>
+                <tr>
+                    <th>Begin</th>
+                    <th>End</th>
+                </tr>
+                <!-- //content -->
+                <tr>
+                    <td rowspan="2">Monday</td>
+                    <td  class="abc" rowspan="2">8:00 AM</td>
+                    <td class="abc" rowspan="2">10:00 AM</td>
+                    <td>Software Engineering Economics</td>
+                </tr>
+                <tr>
+                    <td>Visual Programming</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Thursday</td>
+                    <td class="abc">8:00 Am</td>
+                    <td class="abc">10:00 Pm</td>
+                    <td>Web system and technology</td>
+                </tr>
+                <tr>
+                    <td class="abc">12:00 Pm</td>
+                    <td class="abc">1:00 Pm</td>
+                    <td rowspan="2">Human Computer Interaction</td>
+                </tr>
+                <tr>
+                    <td class="abc">2:00 Pm</td>
+                    <td class="abc">3:00 Pm</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td class="abc">8:00 Am</td>
+                    <td class="abc">10:00 Am</td>
+                    <td>Theory Of Automata</td>
+                </tr>
+        
+            </table>
+        </div>
+    </div>
+   
+</body>
+</html>
